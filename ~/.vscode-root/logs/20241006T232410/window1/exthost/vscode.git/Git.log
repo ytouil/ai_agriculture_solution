@@ -1,0 +1,163 @@
+2024-10-06 23:24:24.645 [info] [main] Log level: Info
+2024-10-06 23:24:24.645 [info] [main] Validating found git in: "git"
+2024-10-06 23:24:24.645 [info] [main] Using git "2.43.0" from "git"
+2024-10-06 23:24:24.645 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-06 23:24:24.645 [info] > git rev-parse --show-toplevel [15ms]
+2024-10-06 23:24:24.645 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 23:24:24.645 [info] > git rev-parse --show-toplevel [62ms]
+2024-10-06 23:24:24.645 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 23:24:24.645 [info] > git rev-parse --show-toplevel [9ms]
+2024-10-06 23:24:24.645 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 23:24:24.645 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-06 23:24:24.645 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 23:24:24.645 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-06 23:24:24.645 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa/NasaSpaceApp24_AIgriculture'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa/NasaSpaceApp24_AIgriculture
+2024-10-06 23:24:24.645 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-06 23:24:24.645 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 23:24:24.645 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-06 23:24:24.645 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 23:24:24.645 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-06 23:24:24.645 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 23:24:24.645 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-06 23:24:24.645 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 23:24:24.645 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (2)
+2024-10-06 23:24:26.509 [info] > git rev-parse --show-toplevel [23ms]
+2024-10-06 23:24:26.509 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 23:24:27.660 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-06 23:24:27.660 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 23:24:28.249 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-06 23:24:28.249 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 23:24:29.900 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-06 23:24:29.900 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 23:24:34.262 [info] > git rev-parse --show-toplevel [15ms]
+2024-10-06 23:24:34.262 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 23:24:48.715 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-06 23:24:48.715 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 23:24:52.225 [info] > git rev-parse --show-toplevel [7ms]
+2024-10-06 23:24:52.225 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 23:27:12.674 [info] > git rev-parse --show-toplevel [17ms]
+2024-10-06 23:27:12.674 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 23:32:41.584 [info] > git rev-parse --show-toplevel [19ms]
+2024-10-06 23:32:41.586 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 23:35:08.791 [info] > git rev-parse --show-toplevel [9ms]
+2024-10-06 23:35:08.792 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 23:40:37.235 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-06 23:40:37.236 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 23:40:53.162 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-06 23:40:53.163 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 23:41:55.468 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-06 23:41:55.478 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-10-06 23:41:55.501 [info] [Model][openRepository] Opened repository: /opt/lampp/htdocs/websiteNasa
+2024-10-06 23:41:55.529 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-06 23:41:55.531 [info] > git config --get commit.template [20ms]
+2024-10-06 23:41:55.536 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-10-06 23:41:55.536 [warning] [Git][getBranch] No such branch: main
+2024-10-06 23:41:55.629 [info] > git status -z -uall [85ms] (cancelled)
+2024-10-06 23:41:55.871 [info] > git show --textconv :Accueil.html [16ms]
+2024-10-06 23:41:55.873 [info] > git ls-files --stage -- /opt/lampp/htdocs/websiteNasa/Accueil.html [3ms]
+2024-10-06 23:41:56.078 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-06 23:42:03.074 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [220ms]
+2024-10-06 23:42:03.074 [warning] [Git][getBranch] No such branch: main
+2024-10-06 23:42:04.313 [info] > git config --get commit.template [1240ms]
+2024-10-06 23:42:04.337 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-06 23:42:04.339 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-06 23:42:04.339 [warning] [Git][getBranch] No such branch: main
+2024-10-06 23:42:06.143 [info] > git status -z -uall [1797ms] (cancelled)
+2024-10-06 23:42:06.143 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1676ms]
+2024-10-06 23:42:06.143 [warning] [Git][getBranch] No such branch: main
+2024-10-06 23:42:06.721 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-06 23:42:06.722 [info] > git config --get commit.template [9ms]
+2024-10-06 23:42:06.722 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-06 23:42:06.723 [warning] [Git][getBranch] No such branch: main
+2024-10-06 23:42:07.974 [info] > git status -z -uall [1248ms] (cancelled)
+2024-10-06 23:42:07.975 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1153ms]
+2024-10-06 23:42:07.975 [warning] [Git][getBranch] No such branch: main
+2024-10-06 23:42:09.113 [info] > git ls-files --stage -- /opt/lampp/htdocs/websiteNasa/Accueil.html [6ms]
+2024-10-06 23:42:09.121 [info] > git cat-file -s 4f7d126d1aed69538ee469a3cd91c90bd9bffcca [2ms]
+2024-10-06 23:42:09.135 [info] > git show --textconv :Accueil.html [6ms]
+2024-10-06 23:42:44.459 [info] > git ls-files --stage -- /opt/lampp/htdocs/websiteNasa/Accueil.html [7ms]
+2024-10-06 23:42:44.468 [info] > git cat-file -s 4f7d126d1aed69538ee469a3cd91c90bd9bffcca [2ms]
+2024-10-06 23:42:44.482 [info] > git show --textconv :Accueil.html [6ms]
+2024-10-06 23:43:10.328 [info] > git ls-files --stage -- /opt/lampp/htdocs/websiteNasa/Accueil.html [9ms]
+2024-10-06 23:43:10.328 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-06 23:43:19.747 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-06 23:43:19.754 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-10-06 23:43:19.768 [info] [Model][openRepository] Opened repository: /opt/lampp/htdocs/websiteNasa
+2024-10-06 23:43:19.776 [info] > git config --get commit.template [2ms]
+2024-10-06 23:43:19.782 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-06 23:43:19.784 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-06 23:43:19.784 [warning] [Git][getBranch] No such branch: master
+2024-10-06 23:43:19.868 [info] > git status -z -uall [79ms] (cancelled)
+2024-10-06 23:43:20.317 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-06 23:43:39.406 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [121ms]
+2024-10-06 23:43:39.406 [warning] [Git][getBranch] No such branch: master
+2024-10-06 23:43:40.565 [info] > git config --get commit.template [1160ms]
+2024-10-06 23:43:40.582 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-06 23:43:40.585 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-06 23:43:40.585 [warning] [Git][getBranch] No such branch: master
+2024-10-06 23:43:42.211 [info] > git status -z -uall [1620ms] (cancelled)
+2024-10-06 23:43:42.211 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1470ms]
+2024-10-06 23:43:42.212 [warning] [Git][getBranch] No such branch: master

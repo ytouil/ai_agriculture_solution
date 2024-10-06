@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Space App Results</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background-color: #E6EFE6; /* Background to match the home page */
+        }
+
+        .navbar {
+            background-color: #6C8976;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .navbar-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .menu {
+            display: flex;
+            gap: 40px;
+        }
+
+        .menu a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1rem;
+        }
+
+        .menu a:hover {
+            color: #a84464;
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+            text-align: center;
+        }
+
+        .content {
+            max-width: 1000px;
+            margin: 100px auto; /* Adjusted margin to account for the navbar */
+            padding: 20px;
+            background-color: #FFFFFF;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #2c3e50;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #79B791;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-link:hover {
+            background-color: #2c3e50;
+        }
+
+        footer {
+            background-color: #2e3d56;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="logo">
+                <a href="Accueil.html">A.I.griculture</a>
+            </div>
+            <div class="menu">
+                <a href="Accueil.html">Home</a>
+                <a href="Accueil.html#data-input-form">Services</a>
+                <a href="#">About Us</a>
+                <a href="documentation.html">Documentation</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content Section -->
+    <div class="content">
+        <h1>Calculation Results</h1>
+        
+        <p><strong>Plantation Type:</strong> Turf</p>
+        <p><strong>Desired Date:</strong> 06/10/2024</p>
+
+        <h2>GDD Data</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Daily GDD</th>
+                    <th>Cumulative GDD</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01/10/2024</td>
+                    <td>12.5</td>
+                    <td>12.5</td>
+                </tr>
+                <tr>
+                    <td>02/10/2024</td>
+                    <td>10.8</td>
+                    <td>23.3</td>
+                </tr>
+                <tr>
+                    <td>03/10/2024</td>
+                    <td>11.0</td>
+                    <td>34.3</td>
+                </tr>
+                <tr>
+                    <td>04/10/2024</td>
+                    <td>9.5</td>
+                    <td>43.8</td>
+                </tr>
+                <tr>
+                    <td>05/10/2024</td>
+                    <td>10.2</td>
+                    <td>54.0</td>
+                </tr>
+                <tr>
+                    <td>06/10/2024</td>
+                    <td>12.0</td>
+                    <td>66.0</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Growth Potential</h2>
+        <p>Based on the cumulative GDD (66.0), the turf is in the <strong>active growth stage</strong>. Here are the corresponding recommendations:</p>
+
+        <h2>Additional Data</h2>
+        <p><strong>Average Humidity in Kansas</strong>: 65%</p>
+        <p><strong>Dollar Spot Disease Probability</strong>: 30%</p>
+
+       
+        <h2>Recommendations</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Action</th>
+                    <th>Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Mowing</strong></td>
+                    <td>You should mow the turf regularly, maintaining a height of 3-4 cm. With active growth, you may need to mow every 4-7 days.</td>
+                </tr>
+                <tr>
+                    <td><strong>Irrigation</strong></td>
+                    <td>Keep the turf well-watered, especially if the weather is warm and dry. Around <strong>20-25 mm of water</strong> per week is optimal.</td>
+                </tr>
+                <tr>
+                    <td><strong>Fertilization</strong></td>
+                    <td>Since the cumulative GDD indicates active growth, apply <strong>slow-release nitrogen fertilizer</strong> to promote strong, healthy turf development. Around <strong>1 kg of nitrogen per 100 m²</strong> can be applied.</td>
+                </tr>
+                <tr>
+                    <td><strong>Pest and Disease Control</strong></td>
+                    <td>Monitor the turf for signs of pests such as grubs or diseases like brown patch. With increased growth, pest pressure can also rise.</td>
+                </tr>
+                <tr>
+                    <td><strong>Aeration</strong></td>
+                    <td>Consider <strong>core aeration</strong> if the soil is compacted. This will enhance root growth and improve water infiltration.</td>
+                </tr>
+                <tr>
+                    <td><strong>Weed Management</strong></td>
+                    <td>Early fall is a good time for <strong>broadleaf weed control</strong>. Use a selective herbicide if necessary.</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 A.I.griculture. All rights reserved.</p>
+    </footer>
+</body>
+</html>

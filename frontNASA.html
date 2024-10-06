@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Space App</title>
+</head>
+<body>
+    <form action="process_and_generate.php" method="POST">
+        <div style="display: flex; justify-content: space-around; align-items: flex-start;">
+            <div>
+                <label for="bottom_left_lat">Bottom-Left Latitude:</label>
+                <input type="text" id="bottom_left_lat" name="bottom_left_lat" required><br><br>
+
+                <label for="bottom_left_lon">Bottom-Left Longitude:</label>
+                <input type="text" id="bottom_left_lon" name="bottom_left_lon" required><br><br>
+
+                <label for="upper_right_lat">Upper-Right Latitude:</label>
+                <input type="text" id="upper_right_lat" name="upper_right_lat" required><br><br>
+
+                <label for="upper_right_lon">Upper-Right Longitude:</label>
+                <input type="text" id="upper_right_lon" name="upper_right_lon" required><br><br>
+
+                <label for="plantation_type">Type of plantation:</label>
+                <select id="plantation_type" name="plantation_type" required>
+                    <option value="Rice">Rice</option>
+                    <option value="Wheat">Wheat</option>
+                    <option value="Turf">Turf</option>
+                    <option value="Vines">Vines</option>
+                    <option value="Maïs">Maïs</option>
+                    <option value="Fruits">Fruits</option>
+                </select><br><br>
+
+                <label for="desired_date">Desired date for data:</label>
+                <input type="date" id="desired_date" name="desired_date" required><br><br>
+
+                <input type="submit" value="Submit">
+            </div>
+            <div id="map">
+                <!-- Map will be inserted here -->
+            </div>
+        </div>
+    </form>
+</body>
+</html>

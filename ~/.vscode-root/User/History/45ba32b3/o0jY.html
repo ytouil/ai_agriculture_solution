@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.I.griculture</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background-color: #E6EFE6; /* Light background color for the whole page */
+        }
+
+        .navbar {
+            background-color: #6C8976;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .navbar-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 50px;
+            margin-right: 10px;
+        }
+
+        .logo a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .menu {
+            display: flex;
+            gap: 40px; /* Increased space between menu items */
+        }
+
+        .menu a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            font-size: 1rem;
+        }
+
+        .menu a:hover {
+            color: #a84464;
+        }
+
+        /* Media Queries for smaller screens */
+        @media (max-width: 768px) {
+            .navbar-content {
+                flex-direction: column;
+            }
+
+            .menu {
+                flex-direction: column;
+                gap: 10px; /* Space between menu items for smaller screens */
+            }
+
+            .logo a {
+                font-size: 1.3rem;
+            }
+        }
+
+        .hero {
+            position: relative;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            z-index: 1;
+            padding: 0 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+        }
+
+        /* Background video */
+        .hero video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -2;
+        }
+
+        .hero-content {
+            max-width: 800px;
+            padding: 0 20px;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+        }
+
+        .btn {
+            background-color: #79B791;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            font-size: 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #6C8976;
+        }
+
+        .features {
+            padding: 80px 5%;
+            background-color: #E6EFE6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .features h2 {
+            color: #2e3d56;
+            margin-bottom: 40px;
+        }
+
+        .features-content {
+            display: flex;
+            justify-content: space-around;
+            max-width: 1200px;
+            margin: 0 auto;
+            flex-wrap: wrap; /* Allow wrapping on smaller screens */
+        }
+
+        .feature-card {
+            background-color: #6C8976;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            padding: 30px;
+            width: 100%;
+            max-width: 300px; /* Add max-width for responsiveness */
+            text-align: center;
+            transition: transform 0.3s ease;
+            color: white;
+            margin: 20px; /* Add margin for spacing */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; /* Center content */
+            height: 300px; /* Set a fixed height for the card */
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature-card img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+
+        .feature-card h3 {
+            color: #1c3335;
+            margin-bottom: 15px;
+        }
+
+        .form-container {
+            padding: 50px 5%;
+            background-color: #79B791;
+            border-radius: 15px;
+            color: #FFFFFF; /* Text color */
+            margin: 50px 0; /* Space above and below the form */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .form-container h2 {
+            margin-bottom: 30px;
+        }
+
+        .form-fields {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Align labels and inputs to the start */
+        }
+
+        input, select {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ffffff;
+            width: 100%;
+            margin-bottom: 15px;
+            background-color: rgba(255, 255, 255, 0.8); /* Light background */
+        }
+
+        footer {
+            background-color: #2e3d56;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Media Queries for larger screens */
+        @media (min-width: 1200px) {
+            .navbar-content {
+                padding: 0 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="logo">
+                <a href="#">A.I.griculture</a>
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#data-input-form">Services</a>
+                <a href="#">About Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <video autoplay muted loop>
+            <source src="https://cdn.pixabay.com/video/2020/07/26/45655-443528315_large.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="hero-content">
+            <h1>Optimize Plant Growth Effectively</h1>
+            <p>Balance light, heat, humidity, and water to successfully grow your crops with the help of artificial intelligence.</p>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+    </header>
+
+    <section class="features">
+        <h2>Our Features</h2>
+        <div class="features-content">
+            <div class="feature-card">
+                <img src="https://via.placeholder.com/80" alt="Customized Predictions">
+                <h3>Customized Predictions</h3>
+                <p>Receive tailored predictions to optimize your crops and maximize your yields.</p>
+            </div>
+            <div class="feature-card">
+                <img src="https://via.placeholder.com/80" alt="Health Monitoring">
+                <h3>Health Monitoring</h3>
+                <p>Monitor the health of your plants in real-time and anticipate potential issues.</p>
+            </div>
+            <div class="feature-card">
+                <img src="https://via.placeholder.com/80" alt="Innovative Dashboard">
+                <h3>Innovative Dashboard</h3>
+                <p>Access all crucial data for your farm at a glance.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="form-container" id="data-input-form">
+        <h2>Data Input Form</h2>
+        <form action="process_and_generate.php" method="POST">
+            <label for="bottom_left_lat">Bottom-Left Latitude:</label>
+            <input type="text" id="bottom_left_lat" name="bottom_left_lat" required>
+
+            <label for="bottom_left_lon">Bottom-Left Longitude:</label>
+            <input type="text" id="bottom_left_lon" name="bottom_left_lon" required>
+
+            <label for="upper_right_lat">Upper-Right Latitude:</label>
+            <input type="text" id="upper_right_lat" name="upper_right_lat" required>
+
+            <label for="upper_right_lon">Upper-Right Longitude:</label>
+            <input type="text" id="upper_right_lon" name="upper_right_lon" required>
+
+            <label for="plantation_type">Type of Plantation:</label>
+            <select id="plantation_type" name="plantation_type" required>
+                <option value="Rice">Rice</option>
+                <option value="Wheat">Wheat</option>
+                <option value="Turf">Turf</option>
+                <option value="Vines">Vines</option>
+                <option value="Maïs">Maïs</option>
+            </select>
+
+            <label for="desired_date">Desired Date:</label>
+            <input type="date" id="desired_date" name="desired_date" required>
+
+            <button type="submit">Submit Data</button>
+        </form>
+    </div>    
+
+    <footer>
+        <p>&copy; 2024 A.I.griculture. All rights reserved.</p>
+    </footer>
+</body>
+</html>

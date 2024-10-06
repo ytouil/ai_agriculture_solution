@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.I.griculture - Results</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background-color: #E6EFE6; /* Light background color for the whole page */
+        }
+
+        .navbar {
+            background-color: #6C8976;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 1rem;
+        }
+
+        .navbar-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .menu {
+            display: flex;
+            gap: 40px;
+        }
+
+        .menu a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            font-size: 1rem;
+        }
+
+        .menu a:hover {
+            color: #a84464;
+        }
+
+        /* Main content */
+        .container {
+            max-width: 800px;
+            margin: 120px auto 0 auto; /* Adjust for navbar height */
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #34495e;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #6C8976;
+            color: white;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .back-link {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            text-align: center;
+        }
+
+        .back-link:hover {
+            background-color: #2980b9;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-top: 30px;
+        }
+
+        /* Updated Recommendations Section */
+        .recommendations {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .recommendations h2 {
+            font-size: 1.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .recommendations ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .recommendations ul li {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+            background-color: #e9ecef;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .recommendations ul li::before {
+            content: '✔';
+            color: #79B791;
+            font-weight: bold;
+            margin-right: 10px;
+            font-size: 1.5rem;
+            line-height: 1;
+        }
+
+        .recommendations ul li p {
+            margin: 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #2e3d56;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar (Header) -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="logo">
+                <a href="#">A.I.griculture</a>
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#data-input-form">Services</a>
+                <a href="#">About Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <h1>Calculation Results</h1>
+        <p><strong>Plantation Type:</strong> {{PLANTATION_TYPE}}</p>
+        <p><strong>Desired Date:</strong> {{DESIRED_DATE}}</p>
+
+        <h2>GDD Data</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Daily GDD</th>
+                    <th>Cumulative GDD</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{GDD_ROWS}}
+            </tbody>
+        </table>
+
+        <h2>Growth Potential</h2>
+        <p>{{GROWTH_POTENTIAL}}</p>
+
+        <div class="recommendations">
+            <h2>Recommendations</h2>
+            <ul>
+                {{RECOMMENDATIONS}}
+            </ul>
+        </div>
+
+        <a href="Accueil.html" class="back-link">Back to form</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 A.I.griculture. All rights reserved.</p>
+    </footer>
+</body>
+</html>

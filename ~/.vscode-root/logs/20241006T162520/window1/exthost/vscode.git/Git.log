@@ -1,0 +1,245 @@
+2024-10-06 16:25:31.585 [info] [main] Log level: Info
+2024-10-06 16:25:31.585 [info] [main] Validating found git in: "git"
+2024-10-06 16:25:31.585 [info] [main] Using git "2.43.0" from "git"
+2024-10-06 16:25:31.585 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-06 16:25:31.585 [info] > git rev-parse --show-toplevel [21ms]
+2024-10-06 16:25:31.585 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:25:31.602 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-06 16:25:31.602 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:25:31.624 [info] > git rev-parse --show-toplevel [12ms]
+2024-10-06 16:25:31.624 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:25:31.642 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-06 16:25:31.642 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa/NasaSpaceApp24_AIgriculture'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa/NasaSpaceApp24_AIgriculture
+2024-10-06 16:25:31.652 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-06 16:25:31.652 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:25:31.669 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-06 16:25:31.669 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:25:31.682 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-06 16:25:31.682 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:25:31.701 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-06 16:25:31.701 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:25:31.711 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (2)
+2024-10-06 16:25:38.615 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-06 16:25:38.615 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:26:00.443 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-06 16:26:00.443 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:26:15.782 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-06 16:26:15.782 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:26:38.309 [info] > git rev-parse --show-toplevel [38ms]
+2024-10-06 16:26:38.309 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:27:46.375 [info] > git rev-parse --show-toplevel [7ms]
+2024-10-06 16:27:46.376 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:27:47.110 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-06 16:27:47.110 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:27:47.700 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-06 16:27:47.700 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:30:17.006 [info] > git rev-parse --show-toplevel [7ms]
+2024-10-06 16:30:17.006 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:30:26.051 [info] > git rev-parse --show-toplevel [9ms]
+2024-10-06 16:30:26.052 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:32:01.198 [info] > git rev-parse --show-toplevel [9ms]
+2024-10-06 16:32:01.198 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:32:19.430 [info] > git rev-parse --show-toplevel [7ms]
+2024-10-06 16:32:19.431 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:32:26.141 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-06 16:32:26.141 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:32:30.180 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-06 16:32:30.180 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:34:25.783 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-06 16:34:25.783 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:34:55.955 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-06 16:34:55.955 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:36:17.625 [info] > git rev-parse --show-toplevel [13ms]
+2024-10-06 16:36:17.627 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:36:59.290 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-06 16:36:59.290 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:40:00.806 [info] > git rev-parse --show-toplevel [7ms]
+2024-10-06 16:40:00.808 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:40:22.583 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-06 16:40:22.583 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:42:42.090 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-06 16:42:42.090 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:42:51.515 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-06 16:42:51.515 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:45:41.201 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-06 16:45:41.201 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:48:18.050 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-06 16:48:18.051 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:48:34.671 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-06 16:48:34.671 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:49:25.304 [info] > git rev-parse --show-toplevel [17ms]
+2024-10-06 16:49:25.304 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:49:29.932 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-06 16:49:29.932 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:51:10.250 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-06 16:51:10.251 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 16:52:08.754 [info] > git rev-parse --show-toplevel [7ms]
+2024-10-06 16:52:08.755 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 17:02:53.750 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-06 17:02:53.750 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 17:15:52.503 [info] > git rev-parse --show-toplevel [11ms]
+2024-10-06 17:15:52.503 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 17:16:11.524 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-06 17:16:11.525 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 17:16:35.048 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-06 17:16:35.048 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 17:19:13.546 [info] > git rev-parse --show-toplevel [8ms]
+2024-10-06 17:19:13.546 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 17:22:19.928 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-06 17:22:19.931 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 17:23:15.681 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-06 17:23:15.681 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 17:24:21.635 [info] > git rev-parse --show-toplevel [8ms]
+2024-10-06 17:24:21.636 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 17:32:40.543 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-06 17:32:40.543 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 17:33:15.390 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-06 17:33:15.390 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 17:33:48.809 [info] > git rev-parse --show-toplevel [5ms]
+2024-10-06 17:33:48.810 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
+2024-10-06 17:34:13.170 [info] > git rev-parse --show-toplevel [8ms]
+2024-10-06 17:34:13.170 [info] fatal: detected dubious ownership in repository at '/opt/lampp/htdocs/websiteNasa'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /opt/lampp/htdocs/websiteNasa
